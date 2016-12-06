@@ -32,6 +32,7 @@ Browser
   --browsertime.connectivity.downstreamKbps, --downstreamKbps  This option requires --connectivity be set to "custom".
   --browsertime.connectivity.upstreamKbps, --upstreamKbps      This option requires --connectivity be set to "custom".
   --browsertime.connectivity.latency, --latency                This option requires --connectivity be set to "custom".
+  --browsertime.connectivity.alias                             Give a name other than "custom" to your custom connectivity settings : it will appear in Grafana
   --browsertime.connectivity.tsproxy.port                      The port used for TSProxy                                                                  [default: 1080]
   --browsertime.connectivity.engine                            The engine for connectivity. TSProxy needs Python 2.7. TC (Linux Traffic Control) needs tc work. If you
                                                                run inside Docker use tc.                                  [choices: "tc", "tsproxy"] [default: "tsproxy"]
